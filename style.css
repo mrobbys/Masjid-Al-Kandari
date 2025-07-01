@@ -70,7 +70,7 @@ img {
 /* reusable css */
 .container {
   max-width: 1120px;
-  margin-inline: 1.5rem;
+  margin-inline: auto;
 }
 
 .grid {
@@ -249,6 +249,7 @@ img {
 
 .home__container {
   position: relative;
+  padding-inline: 5rem;
 }
 
 .home__data {
@@ -327,6 +328,7 @@ img {
 }
 
 .fitur__container {
+  margin-inline: auto;
   color: var(--color-third);
 }
 
@@ -453,7 +455,9 @@ img {
 }
 
 .lokasi__container iframe {
+  margin-inline: auto;
   width: 100%;
+  max-width: 1000px;
   height: 500px;
   border: none;
   border-radius: 15px;
@@ -648,9 +652,9 @@ img {
     text-align: left;
   }
 }
-
+/* 
 @media screen and (min-width: 1024px) {
   .container{
-    margin-inline: 2.5rem;
+    margin-inline: auto;
   }
-}
+} */
